@@ -104,24 +104,25 @@ a:hover {
   box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.50);
 }
 
-.aboutus_first{
+.aboutus_box{
     text-align: center;
+    color: black;
     flex-grow: 1;
     height: auto;
     width: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: #111;
     margin: 10px;
     text-align: left;
     align-self: flex-end;
     box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.30);
-    background-color: #6d6d6d;
+    background-color: #ADADAD;
     width: 95%;
+    border: 1px solid #000;
   }
 
 .small_image{
-
   flex-grow: 1;
   height: 100px;
   width: 100px;
@@ -131,21 +132,25 @@ a:hover {
   margin: 10px;
   align-self: flex-start;
   box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.30);
+  border: 1px solid #000;
 
 }
 
 .aboutus_text{
   height: auto;
+  color: black;
   width: auto;
   display: flex;
   flex-direction: row;
-  background-color: #6d6d6d;
+  background-color: #ADADAD;
   margin: 10px;
   align-self: flex-start;
   text-align: left;
   padding-left: 10px;
-  border: 1px solid #000;
   line-height: 130%;
   overflow: auto;
-  box-shadow: 0px 0px 25px 5px rgba(0,0,0,0.30);
+}
+
+.title_box{
+  text-align: center;
 }
